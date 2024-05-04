@@ -1,0 +1,65 @@
+.btn {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* White*/
+.white {
+    background-color: #ffffff;
+    color: black;
+    box-shadow: -4px 7px 10px 0px #0000001a;
+}
+
+.white:hover {
+    background-color: #f1f1f1;
+}
+
+/* Transparent*/
+.transparent {
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid white;
+}
+
+.transparent:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Black transparent*/
+.black-transparent {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #000000;
+}
+
+.black-transparent:hover {
+    background-color: #000000;
+    color: white;
+    border: 1px solid #000000;
+}
+
+.custom-btn {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9em;
+    background-color: #5e46eb;
+    box-shadow: 3px 3px 0px 0px #000000;
+    color: white;
+    min-width: 150px;
+}
+
+.custom-btn:hover {
+    background-color: #4d3abf;
+    cursor: pointer;
+}

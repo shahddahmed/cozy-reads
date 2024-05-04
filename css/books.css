@@ -1,0 +1,168 @@
+.latest-content {
+    background-color: #f2e6f8;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.latest-section {
+    background-color: #5956e9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.main-top h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #444444;
+}
+
+.book-card {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: #e3d0be;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px #0000001a;
+    align-items: center;
+}
+
+.book-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-price {
+    color: #a56b00;
+}
+
+.book-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.book-description {
+    font-size: 1rem;
+    color: #5c5b5b;
+    direction: rtl;
+}
+
+.book-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex: 1;
+    /* Takes up all available space, pushing the button down */
+}
+
+.book-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.book-card-content button {
+    margin-top: 35px;
+}
+
+
+.book-card-image-overlay {
+    display: block;
+    /* Ensures that the div behaves like a block */
+    width: 150px;
+    /* Adjust according to your requirement */
+    height: 150px;
+    /* Adjust according to your requirement */
+    position: relative;
+    /* For positional context */
+    overflow: hidden;
+    /* Ensures no content pops out of the box */
+}
+
+.book-card-image-overlay img {
+    width: 100%;
+    /* Ensures that the image covers the entire div */
+    height: 100%;
+    /* Ensures that the image covers the entire div */
+    object-fit: cover;
+    /* Ensures that the image does not stretch */
+    transition: transform 0.5s;
+    /* Smooth transition */
+}
+
+.book-card-image-overlay {
+    background-color: white;
+    border-radius: 90%;
+}
+
+.book-shelf {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    /* Allows multiple lines */
+    align-items: stretch;
+    /* This will stretch the child elements to fill the container */
+
+}
+
+.lightblue {
+    background-color: #dbdeff !important;
+}
+
+.skyblue {
+    background-color: #dbf8ff !important;
+}
+
+.rose {
+    background-color: #f7b5c1 !important;
+}
+
+.blue {
+    background-color: #5754e5 !important;
+}
+
+.blue-tany {
+    background-color: #63b3fd !important;
+}
+
+.black {
+    background-color: #000000 !important;
+}
+
+.dark-green {
+    background-color: #162113 !important;
+}
+
+.teal {
+    background-color: #54a183 !important;
+}

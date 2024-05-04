@@ -1,0 +1,50 @@
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #444444;
+}
+
+/*required asterisk after label*/
+.required:after {
+    content: " *";
+    color: red;
+}
+
+.form-group input {
+    width: 300px;
+    padding: 8px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-bottom: 1px solid #5e46eb;
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    resize: none;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #5e46eb;
+}
+

@@ -1,0 +1,83 @@
+.contact-section {
+    height: 100vh;
+    background-color: #5956e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-body {
+    height: 65%;
+    width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f2e6f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+}
+
+.contact-form .left-panel {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-panel-header {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-panel-header>h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #444444;
+}
+
+.left-panel-header span {
+    border-bottom: 1px solid #9999fc;
+}
+
+/* Media Queries for Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-form .left-panel {
+        width: 90%;
+        height: auto;
+    }
+
+    .left-panel-header {
+        padding: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-body {
+        height: auto;
+        /* Let the height be auto to accommodate content */
+    }
+
+    .left-panel-header>h1 {
+        font-size: 2rem;
+        /* Even smaller font size for very small screens */
+    }
+}
