@@ -76,6 +76,7 @@
     .review-body {
         padding: 0;
         max-width: 100%;
+        gap: 1rem;
     }
 
     .review-header p {
