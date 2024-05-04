@@ -91,4 +91,8 @@
         text-align: center;
         font-size: 1.5rem;
     }
+
+    .review-text h2 {
+        flex-direction: column;
+    }
 }
