@@ -20,3 +20,9 @@ p {
     padding: 0;
 }
 
+
+@media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+}

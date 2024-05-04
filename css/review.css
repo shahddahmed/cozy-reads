@@ -59,3 +59,36 @@
     height: 80%;
 }
 
+@media (max-width: 768px) {
+    .review-section {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .review-content {
+        backdrop-filter: unset;
+    }
+
+    #woman {
+        display: none;
+    }
+
+    .review-body {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .review-header p {
+        max-width: 100%;
+    }
+
+    .review-header {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .review-button {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}

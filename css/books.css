@@ -75,7 +75,6 @@
     justify-content: space-between;
     gap: 0.5rem;
     flex: 1;
-    /* Takes up all available space, pushing the button down */
 }
 
 .book-card-body {
@@ -96,26 +95,17 @@
 
 .book-card-image-overlay {
     display: block;
-    /* Ensures that the div behaves like a block */
     width: 150px;
-    /* Adjust according to your requirement */
     height: 150px;
-    /* Adjust according to your requirement */
     position: relative;
-    /* For positional context */
     overflow: hidden;
-    /* Ensures no content pops out of the box */
 }
 
 .book-card-image-overlay img {
     width: 100%;
-    /* Ensures that the image covers the entire div */
     height: 100%;
-    /* Ensures that the image covers the entire div */
     object-fit: cover;
-    /* Ensures that the image does not stretch */
     transition: transform 0.5s;
-    /* Smooth transition */
 }
 
 .book-card-image-overlay {
@@ -129,9 +119,7 @@
     flex-direction: row;
     gap: 1rem;
     flex-wrap: wrap;
-    /* Allows multiple lines */
     align-items: stretch;
-    /* This will stretch the child elements to fill the container */
 
 }
 
@@ -165,4 +153,24 @@
 
 .teal {
     background-color: #54a183 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .book-card {
+        width: 100%;
+    }
+
+    .main-top h1 {
+        font-size: 1.5rem;
+    }
+
+    .latest-section {
+        padding: 1rem;
+        height: unset;
+    }
+
+    .latest-content {
+        padding: 1.5rem;
+    }
+
 }

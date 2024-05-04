@@ -48,3 +48,8 @@
     border-bottom: 1px solid #5e46eb;
 }
 
+@media screen and (max-width: 768px) {
+    .form-group input {
+        width: 100%;
+    }
+}

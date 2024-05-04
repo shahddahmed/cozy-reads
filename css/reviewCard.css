@@ -18,3 +18,16 @@
     height: 10%;
     border-radius: 90%;
 }
+
+@media screen and (max-width: 768px) {
+    .review-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .review-card img {
+        width: 50%;
+        height: 50%;
+    }
+}

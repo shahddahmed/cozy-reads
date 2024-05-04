@@ -24,3 +24,21 @@
 .navbar ul li a:hover {
     border-bottom: 1px solid white;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        gap: 14px;
+    }
+    
+    .navbar ul li a {
+        font-size: 0.8rem;
+    }
+
+    .navbar ul li a:hover {
+        border-bottom: none;
+    }
+
+    .navbar ul li a.active {
+        border-bottom: 1px solid white;
+    }
+}

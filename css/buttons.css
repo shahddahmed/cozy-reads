@@ -63,3 +63,10 @@
     background-color: #4d3abf;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .custom-btn {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+}

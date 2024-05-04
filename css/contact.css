@@ -55,29 +55,36 @@
 
 /* Media Queries for Responsive Adjustments */
 @media (max-width: 768px) {
+    .contact-section {
+        padding: 20px; /* Add padding to avoid touching the screen edges */
+    }
+
+    .contact-body {
+        width: 80%; /* Use more width since padding is added */
+        height: 80%; /* Use more height since padding is added */
+    }
+
     .contact-form {
         flex-direction: column;
         gap: 20px;
     }
 
     .contact-form .left-panel {
-        width: 90%;
+        width: 100%; /* Full width for better utilization of space */
         height: auto;
+        padding: 20px; /* Add padding for internal spacing */
     }
 
     .left-panel-header {
         padding: 5%;
     }
-}
-
-@media (max-width: 480px) {
-    .contact-body {
-        height: auto;
-        /* Let the height be auto to accommodate content */
-    }
 
     .left-panel-header>h1 {
-        font-size: 2rem;
-        /* Even smaller font size for very small screens */
+        font-size: 2.5rem;
+    }
+
+    .left-panel img {
+        width: 100%;
+        height: auto;
     }
 }
