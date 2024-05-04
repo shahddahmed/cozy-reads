@@ -1,0 +1,41 @@
+{
+    "version": 2,
+    "public": true,
+    "builds": [
+      {
+        "src": "*.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "*.js",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "*.css",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/home.html"
+      },
+      {
+        "src": "/about",
+        "dest": "/about.html"
+      },
+      {
+        "src": "/contact",
+        "dest": "/contact.html"
+      },
+      {
+        "src": "/review",
+        "dest": "/review.html"
+      },
+      {
+        "src": "/books",
+        "dest": "/books.html"
+      }
+    ]
+  }
+  
