@@ -1,18 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
     const emailInput = document.querySelector('#email');
     const passwordInput = document.querySelector('#password');
     const loginButton = document.querySelector('#loginButton');
 
-    function validateForm() {
-        if (emailInput.value === '' || passwordInput.value === '') {
-            loginButton.classList.add('disabled');
-            loginButton.disabled = true;
-        }
-        else {
-            loginButton.classList.remove('disabled');
-            loginButton.disabled = false;
-        }
-    }
+    const validateForm = () => {
+        const isInvalid = !emailInput.value || !passwordInput.value;
+        loginButton.classList.toggle('disabled', isInvalid); // just for styling
+        loginButton.disabled = isInvalid; // Actually disable the button
+    };
 
     emailInput.addEventListener('input', validateForm);
     passwordInput.addEventListener('input', validateForm);
