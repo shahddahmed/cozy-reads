@@ -7,8 +7,8 @@
 }
 
 .contact-body {
-    height: 65%;
-    width: 50%;
+    height: auto;
+    width: auto;
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 10px;
@@ -23,13 +23,12 @@
 .contact-form {
     display: flex;
     flex-direction: row;
-    gap: 10%;
     align-items: center;
 }
 
 .contact-form .left-panel {
-    width: 400px;
-    height: 400px;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,20 +58,10 @@
         padding: 20px; /* Add padding to avoid touching the screen edges */
     }
 
-    .contact-body {
-        width: 80%; /* Use more width since padding is added */
-        height: 80%; /* Use more height since padding is added */
-    }
 
     .contact-form {
         flex-direction: column;
         gap: 20px;
-    }
-
-    .contact-form .left-panel {
-        width: 100%; /* Full width for better utilization of space */
-        height: auto;
-        padding: 20px; /* Add padding for internal spacing */
     }
 
     .left-panel-header {
